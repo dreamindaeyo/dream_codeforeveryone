@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(
+    to right,
+    white 0%,
+    white 60%,
+    #a2ceeb 60%,
+    #a2ceeb 100%
+  );
+  align-items: center;
+  border: cornflowerblue 15px;
+}
+#title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: #3598db;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 180px;
+  left: 100px;
+  width: 1000px;
+  height: 500px;
+}
+#about1 {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #a2ceeb;
+}
+#about3 {
+  position: absolute;
+  top: 450px;
+  left: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #a2ceeb;
+}
+#about2 {
+  position: absolute;
+  top: 300px;
+  left: 350px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #a2ceeb;
+}
+#about4 {
+  position: absolute;
+  top: 450px;
+  left: 350px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #a2ceeb;
+}
+#pic {
+  object-position: center;
+}
+center {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+#contact {
+  position: absolute;
+  top: 600px;
+  right: 70px;
+  width: 350px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#message {
+  position: absolute;
+  top: 300px;
+  right: 70px;
+  width: 350px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+a img {
+  width: 36px;
+  height: auto;
+  margin-right: 25px;
+}

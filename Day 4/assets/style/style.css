@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 200vh;
+  background-color: bisque;
+}
+#test1 {
+  background-color: lightsalmon;
+  width: 100px;
+  height: 100px;
+}
+
+#test2 {
+  background-color: coral;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+#test3 {
+  background-color: hotpink;
+  width: 100px;
+  height: 100px;
+}
+#child{
+    width: 50%;
+    height: 50%;
+    background-color: pink;
+    position: absolute;
+}
+#header{
+    height: 20px;
+    background-color: darkseagreen;
+    position: sticky;
+    top: 0;
+}
+#flex{
+    display: flex;
+    justify-content:center;
+   align-items: center;
+   height: 100vh;
+   
+}
