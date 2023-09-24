@@ -82,8 +82,21 @@ function soChinhPhuong(p){
 console.log(soChinhPhuong(p))
 
 //giai thừa
-let n =5;
-for(k=1;k<=n;k++){
-    console.log() 
+let total =1;
+for(let i=1; i<6; i++){
+    total = total *i;
+    console.log(total)
 }
+
+
+//baii 1
+for(let i=1; i<101; i++){
+    if(i%2==0){
+        console.log(i, 'so chan')
+    }else{
+        console.log(i, "so le")
+    }
+}
+
+
 
